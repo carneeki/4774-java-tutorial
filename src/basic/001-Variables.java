@@ -2,7 +2,7 @@
  * Demonstrate variables in a couple of examples.
  *
  */
-
+package basic;
 class Variables
 {
   public static void main( String[] args )

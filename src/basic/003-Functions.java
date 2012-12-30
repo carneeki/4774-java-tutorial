@@ -1,8 +1,9 @@
 /*
- * Demonstrate functions in a couple of examples.
+ * Demonstrate objects in a couple of examples.
  *
  */
-class myFunctions
+package basic;
+class Functions
 {
   /*
    * this is a function.
@@ -48,10 +49,10 @@ class myFunctions
   {
     for(int i = 0; i <= 10; i++)
     {
-      System.out.printf("input: %d, function: addOne(), output: %d\n"  , i, myFunctions.addOne(i) );
-      System.out.printf("input: %d, function: timesTwo(), output: %d\n", i, myFunctions.timesTwo(i) );
-      System.out.printf("input: %d, function: timesN(), output: %d\n"  , i, myFunctions.timesN(i,i) );
+      System.out.printf("input: %d, function: addOne(), output: %d\n"  , i, Functions.addOne(i) );
+      System.out.printf("input: %d, function: timesTwo(), output: %d\n", i, Functions.timesTwo(i) );
+      System.out.printf("input: %d, function: timesN(), output: %d\n"  , i, Functions.timesN(i,i) );
       System.out.println();
     }
   }  // public void main()
-} // class loops
+} // class Functions

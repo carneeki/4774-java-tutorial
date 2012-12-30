@@ -2,6 +2,7 @@
  * Demonstrate loops in a couple of examples.
  *
  */
+package basic;
 class Loops
 {
   public static void main( String[] args )

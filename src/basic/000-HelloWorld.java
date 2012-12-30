@@ -6,6 +6,7 @@
  * cover how they work in a couple of lessons I promise!
  *
  */
+package basic;
 class HelloWorld
 {
   public static void main( String[] args )
